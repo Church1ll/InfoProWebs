@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stay Fit</title>
+    <link rel="shortcut icon" href="./site-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+
+</head>
+
+<body>
+    <div id="container_1">
+        <ul id="navbar">
+            <li id="navbar-item"><a id="navbar-item-link" href="#container_3">Cum funcționează</a></li>
+            <li id="navbar-item"><a id="navbar-item-link" href="#container_6">FAQ</a></li>
+            <li id="navbar-item"><a id="navbar-item-link" href="#container_8">Prețuri</a></li>
+            <div id="brand">SF</div>
+            <div id="login">Login</div>
+            <div id="sign_up">Sign up</div>
+        </ul>
+        <div id="smartwatch_center">
+            <img src="smartwatch.png" id="smartwatch" />
+            <p id="title">Nu ai mai văzut un ceas ca ăsta</p>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300">
+            <path fill="#ffffff" fill-opacity="1" style="padding: 0;"
+                d="M0,64L9.6,53.3C19.2,43,38,21,58,21.3C76.8,21,96,43,115,80C134.4,117,154,171,173,197.3C192,224,211,224,230,218.7C249.6,213,269,203,288,176C307.2,149,326,107,346,122.7C364.8,139,384,213,403,229.3C422.4,245,442,203,461,202.7C480,203,499,245,518,234.7C537.6,224,557,160,576,117.3C595.2,75,614,53,634,90.7C652.8,128,672,224,691,256C710.4,288,730,256,749,213.3C768,171,787,117,806,122.7C825.6,128,845,192,864,229.3C883.2,267,902,277,922,245.3C940.8,213,960,139,979,96C998.4,53,1018,43,1037,80C1056,117,1075,203,1094,202.7C1113.6,203,1133,117,1152,96C1171.2,75,1190,117,1210,144C1228.8,171,1248,181,1267,197.3C1286.4,213,1306,235,1325,240C1344,245,1363,235,1382,202.7C1401.6,171,1421,117,1430,90.7L1440,64L1440,320L1430.4,320C1420.8,320,1402,320,1382,320C1363.2,320,1344,320,1325,320C1305.6,320,1286,320,1267,320C1248,320,1229,320,1210,320C1190.4,320,1171,320,1152,320C1132.8,320,1114,320,1094,320C1075.2,320,1056,320,1037,320C1017.6,320,998,320,979,320C960,320,941,320,922,320C902.4,320,883,320,864,320C844.8,320,826,320,806,320C787.2,320,768,320,749,320C729.6,320,710,320,691,320C672,320,653,320,634,320C614.4,320,595,320,576,320C556.8,320,538,320,518,320C499.2,320,480,320,461,320C441.6,320,422,320,403,320C384,320,365,320,346,320C326.4,320,307,320,288,320C268.8,320,250,320,230,320C211.2,320,192,320,173,320C153.6,320,134,320,115,320C96,320,77,320,58,320C38.4,320,19,320,10,320L0,320Z">
+            </path>
+        </svg>
+    </div>
+    <div class="row" id="container_2">
+        <div class="col-sm-4">
+            <div id="card">
+                <i class="fas fa-download" id="card-icon"></i>
+                <p id="card-title"><span style="color: #2e8dec;">Descarcă</span> Aplicația Noastră</p>
+                <p id="card-description">Aplicația Stay Fit poate fi găsită atât în App Store, cât și pe Market Play</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div id="card">
+                <i class="fas fa-cog" id="card-icon"></i>
+                <p id="card-title"><span style="color: #2e8dec;">Setează</span> Un Cont Nou</p>
+                <p id="card-description">Odată cu setarea acestuia, aplicația se va contecta automat la smartwatch și se va sincroniza. </p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div id="card">
+                <i class="far fa-gem" id="card-icon"></i>
+                <p id="card-title"><span style="color: #2e8dec;">Totul</span> Este Setat</p>
+                <p id="card-description">Acum puteți practica sport, monitorizând cu precizie fiecare activitate.</p>
+            </div>
+        </div>
+    </div>
+    <div id="container_3">
+        <p id="cont_3_title">Cum <span style="color: #2e8dec;">funcționează</span></p>
+        <p id="cont_3_description">Un review complet despre cum funcționează ceasul și aplicația</p>
+        <video width="800" height="450" id="container_3_video" controls>
+            <source src="smartwatch.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div id="container_4">
+        <p id="container_4_title">De ce oamenii <span style="color: #2e8dec;">ne iubesc</span></p>
+        <div class="mySlides fade_effect" id="container_4_slide">
+            <div id="container_4_slide_aux">
+                <div id="container_4_img">
+                    <svg width="450" height="450" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <pattern id="pattern1" height="100%" width="100%" patternContentUnits="objectBoundingBox">
+                                <image height="1" width="1" preserveAspectRatio="none" xlink:href="./img11.png" />
+                            </pattern>
+                        </defs>
+                        <g transform="translate(300,300)">
+                            <path
+                                d="M150.8,-140.5C197,-104.7,237,-52.3,241.1,4.1C245.2,60.6,213.5,121.2,167.3,156C121.2,190.8,60.6,199.9,1.3,198.6C-58,197.3,-116,185.6,-151.8,150.8C-187.6,116,-201.3,58,-195.8,5.5C-190.2,-46.9,-165.5,-93.8,-129.6,-129.6C-93.8,-165.5,-46.9,-190.2,2.7,-192.9C52.3,-195.7,104.7,-176.3,150.8,-140.5Z"
+                                fill="#e1effd" />
+                            <path
+                                d="M141,-84.6C174.1,-24.2,186.2,45.2,159.2,96.7C132.2,148.3,66.1,182.2,-7.1,186.3C-80.3,190.3,-160.5,164.7,-186.9,113.4C-213.3,62.2,-185.9,-14.7,-145.8,-79.2C-105.7,-143.7,-52.8,-195.8,0.6,-196.2C54,-196.5,108,-145,141,-84.6Z"
+                                fill="url(#pattern1)" />
+                        </g>
+                    </svg>
+                </div>
+                <i class="fas fa-quote-left" id="container_4_quote"></i>
+                <div id="container_4_text_aux">
+                    <p id="container_4_text">Ceasul este compact și foarte ușor. Nici nu-l simt în plimbările mele de fiecare zi,
+                        iar monitoizarea stării de sănătate este foarte precisă, chiar dacă nu practic vreun sport de performanță.
+                    </p>
+                    <p id="container_4_name">Sara Smith</p>
+                    <p id="container_4_function">Casnică</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mySlides fade_effect" id="container_4_slide">
+            <div id="container_4_slide_aux">
+                <div id="container_4_img">
+                    <svg width="450" height="450" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <pattern id="pattern2" height="100%" width="100%" patternContentUnits="objectBoundingBox">
+                                <image height="1" width="1" preserveAspectRatio="none" xlink:href="img21.jpg" />
+                            </pattern>
+                        </defs>
+                        <g transform="translate(300,300)">
+                            <path
+                                d="M150.8,-140.5C197,-104.7,237,-52.3,241.1,4.1C245.2,60.6,213.5,121.2,167.3,156C121.2,190.8,60.6,199.9,1.3,198.6C-58,197.3,-116,185.6,-151.8,150.8C-187.6,116,-201.3,58,-195.8,5.5C-190.2,-46.9,-165.5,-93.8,-129.6,-129.6C-93.8,-165.5,-46.9,-190.2,2.7,-192.9C52.3,-195.7,104.7,-176.3,150.8,-140.5Z"
+                                fill="#e1effd" />
+                            <path
+                                d="M141,-84.6C174.1,-24.2,186.2,45.2,159.2,96.7C132.2,148.3,66.1,182.2,-7.1,186.3C-80.3,190.3,-160.5,164.7,-186.9,113.4C-213.3,62.2,-185.9,-14.7,-145.8,-79.2C-105.7,-143.7,-52.8,-195.8,0.6,-196.2C54,-196.5,108,-145,141,-84.6Z"
+                                fill="url(#pattern2)" />
+                        </g>
+                    </svg>
+                </div>
+                <i class="fas fa-quote-left" id="container_4_quote"></i>
+                <div id="container_4_text_aux">
+                    <p id="container_4_text">Știind că duc un mod de viață mai puțin sănătos, stând toată ziua la birou și mâncând
+                        neregulat, am decis să-l iau ca să-mi schimb puțin rutina. Și a mers! Datorită lui mă simt mult mai motivat să 
+                        practic ceva mișcare în fiecare zi. E foarte tare!
+                    </p>
+                    <p id="container_4_name">Andrei Moraru</p>
+                    <p id="container_4_function">FrontEnd Developer, Endava</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mySlides fade_effect" id="container_4_slide">
+            <div id="container_4_slide_aux">
+                <div id="container_4_img">
+                    <svg width="450" height="450" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <pattern id="pattern3" height="100%" width="100%" patternContentUnits="objectBoundingBox">
+                                <image height="1" width="1" preserveAspectRatio="none" xlink:href="img31.jpg" />
+                            </pattern>
+                        </defs>
+                        <g transform="translate(300,300)">
+                            <path
+                                d="M150.8,-140.5C197,-104.7,237,-52.3,241.1,4.1C245.2,60.6,213.5,121.2,167.3,156C121.2,190.8,60.6,199.9,1.3,198.6C-58,197.3,-116,185.6,-151.8,150.8C-187.6,116,-201.3,58,-195.8,5.5C-190.2,-46.9,-165.5,-93.8,-129.6,-129.6C-93.8,-165.5,-46.9,-190.2,2.7,-192.9C52.3,-195.7,104.7,-176.3,150.8,-140.5Z"
+                                fill="#e1effd" />
+                            <path
+                                d="M141,-84.6C174.1,-24.2,186.2,45.2,159.2,96.7C132.2,148.3,66.1,182.2,-7.1,186.3C-80.3,190.3,-160.5,164.7,-186.9,113.4C-213.3,62.2,-185.9,-14.7,-145.8,-79.2C-105.7,-143.7,-52.8,-195.8,0.6,-196.2C54,-196.5,108,-145,141,-84.6Z"
+                                fill="url(#pattern3)" />
+                        </g>
+                    </svg>
+                </div>
+                <i class="fas fa-quote-left" id="container_4_quote"></i>
+                <div id="container_4_text_aux">
+                    <p id="container_4_text">Eu practic alergatul ca sport de performanță. Am cumpărat o grămadă de diverse 
+                        alte smartwatch-uri înaite, însă ăsta pur și simplu le bate pe toate, 
+                        iar după un an funcționează la fel ca în prima zi. Recomand!  </p>
+                    <p id="container_4_name">Ioana Pădureanu</p>
+                    <p id="container_4_function">Atlet de performanță, categoria 800m</p>
+                </div>
+            </div>
+        </div>
+
+        <i class="fas fa-arrow-left prev" onclick="plusSlides(-1)"></i>
+        <i class="fas fa-arrow-right next" onclick="plusSlides(1)"></i>
+
+    </div>
+    <div id="container_5_main">
+        <p id="container_5_title">Funcțiile <span style="color: #2e8dec;">aplicației</span></p>
+        <div id="container_5">
+            <div id="container_5_slide">
+                <img src="./iPhone_screenshots/far_left.png" class="container_5_slide_image" />
+            </div>
+            <div id="container_5_slide">
+                <img src="./iPhone_screenshots/left.png" class="container_5_slide_image" />
+            </div>
+            <div id="container_5_slide">
+                <img src="./iPhone_screenshots/center.png" class="container_5_slide_image_center" />
+            </div>
+            <div id="container_5_slide">
+                <img src="./iPhone_screenshots/right.png" class="container_5_slide_image" />
+            </div>
+            <div id="container_5_slide">
+                <img src="./iPhone_screenshots/far_right.png" class="container_5_slide_image" />
+            </div>
+        </div>
+    </div>
+    <div id="container_6">
+        <p id="container_6_title">Întrebări <span style="color: #2e8dec;">adresate frecvent</span></p>
+        <div id="container_6_content">
+            <div id="container_6_text">
+                <button class="collapsible" id="b1">Unde pot cumpăra un astfel de smartwatch? <i
+                        class="fas fa-chevron-right cont_6_icon" id="icon_1"></i></button>
+                <div class="content">
+                    <p>Acest smartwatch poate fi cumpărat din orice magazin din țară, atât fizic, cât și online. </p>
+                </div>
+                <button class="collapsible" id="b2" onclick="icon_2()">Unde pot descărca aplicația? <i
+                        class="fas fa-chevron-right cont_6_icon" id="icon_2"></i></button>
+                <div class="content">
+                    <p>Aplicația poate fi descărcată din App Store sau Market Play.</p>
+                </div>
+                <button class="collapsible" id="b3" onclick="icon_3()">Ce reprezintă subscripțiile din aplicație?<i
+                        class="fas fa-chevron-right cont_6_icon" id="icon_3"></i></button>
+                <div class="content">
+                    <p>Deși poate fi utilizată gratuit de oricine, subscripțiile sunt destinate sportivilor de performanță,
+                        care doresc monitorizarea extrem de detaliată a sportului practicat. Aceste pachete includ un antrenor 
+                        personal digital, pe bază de AI, recomandări în real time cu privire la traseul ce se poate parcurge etc.
+                    </p>
+                </div>
+                <button class="collapsible" id="b4" onclick="icon_4()">Este pachetul standard îndeajuns pentru mine?<i
+                        class="fas fa-chevron-right cont_6_icon" id="icon_4"></i></button>
+                <div class="content">
+                    <p>Desigur! Pachetul standard nu limitează cu nimic utilizarea funcțiilor de bază prezente în orice smartwatch.</p>
+                </div>
+            </div>
+            <div id="container_6_image">
+                <img src="smartwatch_new.png" id="container_6_image_aux" />
+            </div>
+        </div>
+    </div>
+    <div id="container_7">
+        <div>
+            <p id="container_7_title">Noutăți</p>
+            <pre id="container_7_text">Înscrie-te la newsletterul nostru pentru a fi primul care află despre <br>noile produse lansate sau reducerile de moment
+            </pre>
+            <form style="width: 500px; height: 45px;">
+                <input id="container_7_input" placeholder="&#xf1d8;  Email">
+                <button type="submit" id="container_7_button">SUBSCRIBE</button>
+            </form>
+            <div id="container_7_icons">
+                <i class="fab fa-apple" id="cont_7_aux"></i>
+                <i class="fab fa-android" id="cont_7_aux"></i>
+                <i class="fab fa-windows" id="cont_7_aux"></i>
+            </div>
+        </div>
+    </div>
+    <div id="container_8">
+        <p id="container_8_title">Subscripții și <span style="color: #2e8dec;">Prețuri</span></p>
+        <p id="container_8_description">Desinate pentru sportivii de performanță și persoanele ce vor mai mult de la smartwatch-ul lor</p>
+        <div id="container_8_content">
+            <div id="container_8_normal">
+                <p id="cont_8_card_top">STARTER</p>
+                <p id="cont_8_card_price">$10</p>
+                <p id="cont_8_card_subscription">Per utilizator / lunar</p>
+                <p id="cont_8_card_description">Recomandarea celor mai bune spații pentru sport, calcul de altitudine...
+                </p>
+                <svg height="40" width="230">
+                    <line x1="0" y1="0" x2="230" y2="0" style="stroke: #e6efff;stroke-width: 3" />
+                </svg>
+                <div id="cont_8_card_details">
+                    <div style="text-align: right; margin-right: 3px; font-weight: bold;">
+                        <p style="margin-bottom: 9px;">20,000</p>
+                        <p style="margin-bottom: 9px;">1,000</p>
+                        <p style="margin-bottom: 9px;">Limited</p>
+                        <p style="margin-bottom: 30px;">100K</p>
+                    </div>
+                    <div style="text-align: left; margin-left: 3px;">
+                        <p style="margin-bottom: 9px;">Notificări</p>
+                        <p style="margin-bottom: 9px;">Update-uri</p>
+                        <p style="margin-bottom: 9px;">Bandwidht</p>
+                        <p style="margin-bottom: 30px;">Utilizatori</p>
+                    </div>
+                </div>
+                <button id="cont_8_sign_button">Sign Up</button>
+            </div>
+            <div id="container_8_active">
+                <p id="cont_8_card_top">PROFESSIONAL</p>
+                <p id="cont_8_card_price">$20</p>
+                <p id="cont_8_card_subscription">Per utilizator / lunar</p>
+                <p id="cont_8_card_description">STARTER<br> + antrenor digital pe bază de AI
+                </p>
+                <svg height="40" width="230">
+                    <line x1="0" y1="0" x2="230" y2="0" style="stroke: #0967d2;stroke-width: 3" />
+                </svg>
+
+                <div id="cont_8_card_details">
+                    <div style="text-align: right; margin-right: 3px; font-weight: bold;">
+                        <p style="margin-bottom: 9px;">30,000</p>
+                        <p style="margin-bottom: 9px;">3,0000</p>
+                        <p style="margin-bottom: 9px;">Unlimited</p>
+                        <p style="margin-bottom: 30px;">40K</p>
+                    </div>
+                    <div style="text-align: left; margin-left: 3px;">
+                        <p style="margin-bottom: 9px;">Notifications</p>
+                        <p style="margin-bottom: 9px;">Update-uri</p>
+                        <p style="margin-bottom: 9px;">Bandwidht</p>
+                        <p style="margin-bottom: 30px;">Utilizatori</p>
+                    </div>
+                </div>
+                <button id="cont_8_sign_button">Sign Up</button>
+            </div>
+            <div id="container_8_normal">
+                <p id="cont_8_card_top">ADVANCED</p>
+                <p id="cont_8_card_price">$30</p>
+                <p id="cont_8_card_subscription">Per utilizator / lunar</p>
+                <p id="cont_8_card_description">PROFESSIONAL<br>+ discuții cu specialiștii noștri din sănătate
+                </p>
+                <svg height="40" width="230">
+                    <line x1="0" y1="0" x2="230" y2="0" style="stroke: #e6efff;stroke-width: 3" />
+                </svg>
+                <div id="cont_8_card_details">
+                    <div style="text-align: right; margin-right: 3px; font-weight: bold;">
+                        <p style="margin-bottom: 9px;">50,000</p>
+                        <p style="margin-bottom: 9px;">5,000</p>
+                        <p style="margin-bottom: 9px;">Unlimited</p>
+                        <p style="margin-bottom: 30px;">20M</p>
+                    </div>
+                    <div style="text-align: left; margin-left: 3px;">
+                        <p style="margin-bottom: 9px;">Notifications</p>
+                        <p style="margin-bottom: 9px;">App updates</p>
+                        <p style="margin-bottom: 9px;">Bandwidht</p>
+                        <p style="margin-bottom: 30px;">Users</p>
+                    </div>
+                </div>
+                <button id="cont_8_sign_button">Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <div id="container_9">
+        <p id="cont_9_title">Ultimele <span style="color: #2e8dec;">noutăți</span></p>
+        <div id="cont_9_content">
+            <div id="cont_9_card">
+                <p id="cont_9_card_top">Pe 1 Nov 2022, by Admin</p>
+                <p id="cont_9_card_title">Un nou update pentru aplicația mobilă</p>
+                <p id="cont_9_card_description">S-au rezolvat bug-urile majore, cum ar fi calcularea
+                    incorectă a altitudinii și presiunii atmosferice, pierderea conexiunii cu ceasul la startul unei sesiuni de ciclism,
+                    suprapunerea barei de search peste bara de navigare...
+                </p>
+            </div>
+            <div id="cont_9_card">
+                <p id="cont_9_card_top">Pe 25 Oct 2022, by Admin</p>
+                <p id="cont_9_card_title">Update de software și firmware pentru ceas</p>
+                <p id="cont_9_card_description">Sa-u rezolvat bug-urile majore, cum ar fi dispariția fișierelor muzicale din memoria internă,
+                    dezinstalarea automată a unor aplicații proaspăt instalate, suprapunerea watchface-ului nou peste cel vechi...
+                </p>
+            </div>
+            <div id="cont_9_card">
+                <p id="cont_9_card_top">Pe 17 Oct 2022, by Admin</p>
+                <p id="cont_9_card_title">Introducerea mai multor sporturi și funcții noi</p>
+                <p id="cont_9_card_description">Deși ceasul este rezistent la apă, în acest update au fost introduse sesiuni de workout
+                    complete pentru înot și polo pe apă. De asemenea, a fost introdus skiatul, patinajul, rugby, fotbal american, 
+                    săritura cu prăjina...
+                </p>
+            </div>
+            <div class="cont_9_card_hidden" id="cont_9_card">
+                <p id="cont_9_card_top">Pe 12 Oct 2022, by Admin</p>
+                <p id="cont_9_card_title">Watchface-uri în stil de Halloween și Ziua Orașului</p>
+                <p id="cont_9_card_description">Echipa noastră de design-eri își bucură utilizatorii cu watchface-uri noi,
+                    spooky în stil de Halloween, și watchface-uri în stil tradițional, pentru a sărbători Ziua Orașului.
+                    Pentru a avea acces la ele, instalați cel mai recent update pentru aplicația mobilă...
+                </p>
+            </div>
+            <div class="cont_9_card_hidden" id="cont_9_card">
+                <p id="cont_9_card_top">Pe 1 Oct 2022, by Admin</p>
+                <p id="cont_9_card_title">Noi culori și noi modele de curelușe pe smartwatch-urile noi</p>
+                <p id="cont_9_card_description">Aseară, 31 septembrie, a fost lansată o generație nouă de smartwatch-uri, 
+                    mai bune, mai rezistente, și cel mai important, la același preț. Smartwatch-urile au primit noi senzori de temperatură,
+                    umiditate, barometru...
+                </p>
+            </div>
+            <div class="cont_9_card_hidden" id="cont_9_card">
+                <p id="cont_9_card_top">Pe 31 Sept 2022, by Admin</p>
+                <p id="cont_9_card_title">31 Septembrie, ora 21:00, lansarea unor noi smartwatch-uri</p>
+                <p id="cont_9_card_description">Dragi utilizatori,<br>
+                Vă anunțăm cu drag că compania noastră a luat avânt și astăzi, după aproape un an de la prima lansare, 
+                anunțăm cea de-a doua generație a renumitului nostru smartwatch...</p>
+            </div>
+        </div>
+        <div id="cont_9_button_cont">
+            <button id="cont_9_button">View All</button>
+        </div>
+    </div>
+    <div id="container_10">
+        <p id="cont_10_title">Contactați-ne</p>
+        <p id="cont_10_description">Echipa noastră vă stă la dispoziție</p>
+        <form id="cont_10_form">
+            <input id="cont_10_input" placeholder="&#xf1d8;  Email">
+            <input list="issues" name="issues" placeholder="Selectați problema" id="cont_10_selector">
+            <datalist id="issues">
+                <option value="Display spart">
+                <option value="Baterie defectă">
+                <option value="Nu mai pornește">
+                <option value="Nu mai bootează">
+                <option value="Bug-uri majore">
+            </datalist>
+            <input type="submit" value="Trimite" id="cont_10_submit_button">
+        </form>
+        <div id="cont_10_add_inform">
+            <p style="margin: 20px 20px;"><i class="fas fa-at"
+                    style="margin-right: 10px; font-size: 18px;"></i>info@stayfit.com</p>
+            <p style="margin: 20px 20px;"><i class="fas fa-phone-volume"
+                    style="margin-right: 10px; font-size: 18px;"></i>067-123-456</p>
+            <p style="margin: 20px 20px;"><i class="far fa-compass" style="margin-right: 10px; font-size: 18px;"></i>Chișinău, MDA</p>
+        </div>
+    </div>
+    <div id="container_11">
+        <i class="fas fa-map-marked-alt" id="cont_11_icon"></i>
+    </div>
+    <div id="container_12">
+        <div id="cont_12_part_1">
+            <img src="apple_store.png" id="cont_12_image" /></a>
+            <img src="google_play.png" id="cont_12_image" />
+            <div id="cont_12_links_aux">
+                <a href="#" id="cont_12_links">Home</a>
+                <a href="#" id="cont_12_links">Testimonials</a>
+                <a href="#" id="cont_12_links">Plans</a>
+                <a href="#" id="cont_12_links">Blog</a>
+                <a href="#" id="cont_12_links">About</a>
+            </div>
+        </div>
+        <div id="cont_12_part_2">
+            <p id="cont_12_copyright">© 2022 - Musteață Cristian | All rights reserved</p>
+            <div id="cont_12_icons_aux">
+                <i class="fab fa-twitter" id="cont_12_icons"></i>
+                <i class="fab fa-facebook-f" id="cont_12_icons"></i>
+                <i class="fab fa-instagram" id="cont_12_icons"></i>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    
+    <script src="https://kit.fontawesome.com/801155d736.js"></script>
+</body>
+
+</html>
